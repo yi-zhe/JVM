@@ -23,5 +23,7 @@ public class T002_ClassLoaderLevel {
         // 原因
         // 1. 安全性问题
         // 2. 不必重复加载
+
+        System.out.println(ClassLoader.getSystemClassLoader());
     }
 }
